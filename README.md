@@ -33,7 +33,7 @@ The ARTag detection and Tracking package requires following dependencies.
  6. We then approximate the contour points using the approxPolyDP function and tuning its epsilon. This reduces all the contours points to just 4 points which are the corners of our tag.
 
 <p align="center">
-<img src="images_for_readme/corner_detection.png">
+<img src="images_for_readme/corner_detection.PNG">
 </p>
 
 #### B) Tag orientation detection
@@ -49,7 +49,7 @@ distance which is none other the corner of the white square which denotes orient
 6. Rotate the tag based on the position of this point in the array and make the tag upright.
 
 <p align="center">
-<img src="images_for_readme/orientation_detection.png">
+<img src="images_for_readme/orientation_detection.PNG">
 </p>
 
 #### C) Tag ID detection
@@ -60,7 +60,7 @@ encoding region
 4. Then print the ID on the video.
 
 <p align="center">
-<img src="images_for_readme/tagid_detection.png">
+<img src="images_for_readme/tagid_detection.PNG">
 </p>
 
 #### Pipeline for superimposing Image on Tag
@@ -72,7 +72,7 @@ encoding region
 image in a black background of the size of the frame.
 
 <p align="center">
-<img src="images_for_readme/lenaon_tag1.png">
+<img src="images_for_readme/lenaon_tag1.PNG">
 </p>
 
 
@@ -84,7 +84,7 @@ image in a black background of the size of the frame.
 5. We then add both image and finally we have an image with the tag replaced by lena
 
 <p align="center">
-<img src="images_for_readme/lenaon_tag2.png">
+<img src="images_for_readme/lenaon_tag2.PNG">
 </p>
 
 #### Pipeline for superimposing Cube on Tag
@@ -101,7 +101,7 @@ the 4 corners in the image plane.
 2. We then form a contour for the bottom 4 points and the top 4 points and draw lines between them.
 
 <p align="center">
-<img src="images_for_readme/cubeon_tag.png">
+<img src="images_for_readme/cubeon_tag.PNG">
 </p>
 
 ## Instructions
